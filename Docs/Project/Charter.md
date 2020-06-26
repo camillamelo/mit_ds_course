@@ -16,6 +16,7 @@ Precisamos também para realizar esse projeto, prever as idades faltantes no dat
 Com isso, teremos 2 problemas: Um de regressão para predizer as idades dos passageiros faltantes e outro de Classificação, para determinar quem sobreviveu ou não ao naufrágio:
 
 
+# Regressão
 * **Problema 1**: Regressão
 * **Algoritmo**: treinamento supervisionado
 * **Base de dados**: arquivos csv originarios do Kaggle's Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic/data)
@@ -24,11 +25,13 @@ Com isso, teremos 2 problemas: Um de regressão para predizer as idades dos pass
 ## Métricas
 * Objetivo qualitativo: Prever a idade dos passageiros a bordo
 * Figura de mérito: MSRE
-* Benchmarking: 70%.
+* Benchmarking: 40%.
 * Métrica deve ser medida sobre um conjunto dos dados.
 
 
 
+
+# Classificação
 * **Problema 2**: classificação binária
 * **Algoritmo**: treinamento supervisionado
 * **Base de dados**: arquivos csv originarios do Kaggle's Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic/data)
